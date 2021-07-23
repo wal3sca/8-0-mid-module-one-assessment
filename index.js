@@ -51,7 +51,22 @@ function getTotalCount(animals) {
  * getAllKinds(animals); //> ["Pig", "Cow", "Chicken", "Horse", "Dog", "Cat"]
  * getAllKinds([]); //> [] // returns empty array if input array is empty
  */
-function getAllKinds(animals) {}
+function getAllKinds(animals) {
+
+  let kindArr = []
+
+  for (let i = 0; i < animals.length; i++){
+   let animal = animals[i]
+   let type = animal.kind
+
+   // to add to an array use .push
+   kindArr.push(type) 
+  }
+
+  return kindArr
+
+}
+
 
 /**
  * FUNCTION DESCRIPTION
@@ -70,7 +85,25 @@ function getAllKinds(animals) {}
   ];
  * filterByCountMinimum([], 3); //> [] // returns empty array if input array is empty
  */
-function filterByCountMinimum(animals, minimum) {}
+function filterByCountMinimum(animals, minimum) {
+
+  let countArr = []
+
+  for (let i = 0; i < animals.length; i++){
+   let animal = animals[i]
+   let min = animal.count;
+
+   if (){
+
+   }
+
+   // to add to an array use .push
+   countArr.push(min) 
+  }
+
+  return countArr
+
+}
 
 /**
  * FUNCTION DESCRIPTION
