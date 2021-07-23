@@ -93,12 +93,11 @@ function filterByCountMinimum(animals, minimum) {
    let animal = animals[i]
    let min = animal.count;
 
-   if (){
+   if (min >= minimum){
 
+    countArr.push(animal)
    }
 
-   // to add to an array use .push
-   countArr.push(min) 
   }
 
   return countArr
@@ -114,11 +113,17 @@ function filterByCountMinimum(animals, minimum) {
  *
  * EXAMPLE
  * ------------------
- * getMostCommonAnimal(animals); //> { kind: "Chicken", count: 11 }
+ * getMostCommonAnimal(animals);
+//>   { kind: "Chicken", count: 11 },
  * getMostCommonAnimal([]); //> null // returns null if the input is empty
  */
-function getMostCommonAnimal(animals) {}
+function getMostCommonAnimal(animals) {
 
+//   let arr = []
+
+
+}
+//   return arr 
 // Do not change anything below this line.
 module.exports = {
   getTotalCount,
